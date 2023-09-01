@@ -18,7 +18,7 @@ function App() {
 
       <div className='Container'>
         <Particle />
-        {/*<Navbar />*/}
+        <Navbar />
         <Front />
         <Projects />
         <Interests />
