@@ -71,7 +71,7 @@
 .proPhoto1 {
    width: 20vw;
    height: 20vw;
-   background-image: url("./SOWA.png");
+   background-image: url("SOWA.png");
    background-size: cover;
    background-position: center;
    border-radius: 50%;
