@@ -1,8 +1,8 @@
-/* hide scrollbar for chrome, safari and opera */
+/* hide scrollbar for chrome, safari and opera 
 .Container::-webkit-scrollbar {
   display: none;
   overflow: none;
-}
+}*/
 
 .Container {
   background-color: black;
