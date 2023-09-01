@@ -1,11 +1,22 @@
 .frontContainer {
-   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 95%, 0 100%);
+   background-color: transparent;
    margin: 0;
    padding: 0;
    height: 100vh;
-   background-color: transparent;
+   position: relative;
+}
+
+.polygon1 {
+   clip-path: polygon(0 100%, 50% 95%, 100% 100%);
+   background-color: black;
+   z-index: 100;
+   position: absolute;
+   width: 100%;
+   left: 0;
+   height: 100vh;
 
 }
+
 
 .frontSection {
    width: 100%;
@@ -17,6 +28,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   z-index: 10;
 }
 
 .frontTitle {
@@ -25,6 +37,7 @@
    font-size: 3vw;
    font-weight: 700;
    letter-spacing: 0.3vw;
+   z-index: 10;
 }
 
 .frontDesc {

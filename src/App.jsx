@@ -5,6 +5,7 @@ import Front from './components/Front'
 import Projects from './components/Projects'
 import Interests from './components/Interests'
 import Contact from './components/Contact'
+import Particle from './components/Particle'
 
 
 
@@ -16,7 +17,8 @@ function App() {
     <BrowserRouter>
 
       <div className='Container'>
-        <Navbar />
+        <Particle />
+        {/*<Navbar />*/}
         <Front />
         <Projects />
         <Interests />

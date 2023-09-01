@@ -1,15 +1,14 @@
 import React from 'react'
 import './Front.css'
-import Particle from './Particle'
+
+
 
 
 
 const Front = () => {
    return (
 
-      <div className='frontContainer' id="front">
-         <Particle />
-
+      <div className='frontContainer ' id="front">
 
          <div className='frontSection'>
             <div className='frontTitle'>
@@ -18,7 +17,10 @@ const Front = () => {
             <div className='frontDesc'>
                "Practice Makes Perfect"
             </div>
+
          </div>
+         <div className='polygon1'></div>
+
       </div >
    )
 }

@@ -4,6 +4,7 @@ import './Interests.css'
 import { gsap } from "gsap";
 
 
+
 const rmintTitle = {
    display: 'none',
 }
@@ -128,8 +129,14 @@ const interests = () => {
 
 
    return (
-      <div className='interests' id="interests">
-         <div className='intLeft'>
+
+      <div className='interests' id="interests" >
+         <div className='polygon4'></div>
+
+
+
+
+         <div className='intLeft' >
             <div className='intContainer'>
 
                <div className='intRow'>
@@ -166,7 +173,9 @@ const interests = () => {
 
             <p className="intDesc" style={isOpen4 ? null : rmText} ref={proCoRef4}>I am a 3rd year student at the Warsaw University of Technology at the Faculty of Mechatronics. In addition to developing in the direction of programming, I am active in the student government. I help solve IT problems by acting in the digitization committee. I took part in the organization of the Juwenalia and the fair of scientific circles. In my free time, I like to spend it actively. I often go out for a run and in the winter I go skiing with my friends</p>
          </div>
+         <div className='polygon5'></div>
       </div >
+
    )
 }
 

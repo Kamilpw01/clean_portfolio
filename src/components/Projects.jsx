@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react'
 import './Projects.css'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Particle from './Particle';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,10 +59,13 @@ const Projects = () => {
    return (
 
       <div className='projects' id="projects">
+         <div className='polygon2'></div>
+
 
 
 
          <div className="proContainer" ref={proCoRef}>
+
 
 
             <div className="proTitle">My Projects</div>
@@ -114,6 +119,7 @@ const Projects = () => {
             </div>
 
          </div>
+         <div className='polygon3'></div>
       </div>
 
    )

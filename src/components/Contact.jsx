@@ -53,6 +53,7 @@ const Contact = () => {
    }
    return (
       <div className='contact' id="contact" >
+         <div className='polygon6'></div>
          <div className='conLeft'>
             <div className='conModel'>
                <Canvas>
