@@ -84,7 +84,7 @@
 .proPhoto2 {
    width: 20vw;
    height: 20vw;
-   background-image: url(./blog_archive.png);
+   background-image: url("./blog_archive.png");
    background-position: center;
    background-size: cover;
    border-radius: 50%;
@@ -96,7 +96,7 @@
 .proPhoto3 {
    height: 20vw;
    width: 20vw;
-   background-image: url(./flappy.png);
+   background-image: url("./flappy.png");
    background-size: cover;
    border-radius: 50%;
    background-position: center;
