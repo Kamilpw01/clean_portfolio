@@ -32,7 +32,9 @@ const Contact = () => {
       tl.to(proCoElement, {
          opacity: 1,
          x: -500,
-         duration: 0.5
+         duration: 0.5,
+         display: 'flex',
+
       })
    })
 
